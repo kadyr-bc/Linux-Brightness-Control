@@ -71,7 +71,6 @@ class BrightnessWindow(Gtk.Window):
     def detect_monitors(self):
         monitors = []
         try:
-            # Brief mode is faster for detection
             output = subprocess.check_output(['/usr/bin/ddcutil', 'detect', '--brief'], text=True)
             for line in output.split('\n'):
                 if line.startswith('Display'):
