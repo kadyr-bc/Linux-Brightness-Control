@@ -1,9 +1,3 @@
-Here are the GitHub presentation/README files tailored for your repository, provided in both English and Spanish based on your documentation.
-
----
-
-## 🇬🇧 English README (`README.md`)
-
 # Brightness Control
 
 This tool brings simple, graphical hardware control for external monitors straight to your Linux desktop. It was created to provide an easy way to change your monitor's brightness on Linux, similar to the experience provided by the Twinkle Tray app on Windows.
